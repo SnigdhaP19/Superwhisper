@@ -1,0 +1,92 @@
+html{width:100%;height:100%;margin:0;padding:0}
+body{width:100%;height:100%;margin:0;padding:0;display:flex;flex-direction:column;overflow:hidden}
+.header{
+  height:200px; direction:row; margin:1;
+}
+a {color:white};
+a:visited{color:white}
+a:hover{color: yellow}
+.page{
+  flex:1;
+  display:flex;
+  background-color: black;
+  overflow: hidden;
+}
+.pageC{
+  flex:1;
+  display:flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+.sidebar{
+  width:200px;
+  height:100%;
+  border:1px  solid white;
+  overflow:auto;
+  padding:10px;
+}
+.content{
+  flex:1;
+  display: flex;
+  overflow:hidden;
+  flex-direction: row;
+}
+.container{
+  flex: 1;
+  overflow: auto;
+  padding: 10px;
+}
+
+.CalignmentH{
+  text-align: center; font-family: "Inter", "serif";  font-size: 40px; font-weight: bold; color: "white";
+}
+.Calignment{
+  text-align: center; font-family: "Inter", "serif";   font-size: 30px; font-weight: bold;
+}
+.fontS{
+  font-family: "Inter", "serif"; font-size: 20px; font-weight: bold;
+}
+.fontSu{
+  font-family: "Inter", "serif"; font-size: 25px; font-weight:bold;
+}
+.fontT{
+  font-family: "Inter", "serif"; font-size:18px
+}
+.headerT{
+  text-align: right; font-family: "Inter", "serif"; font-size: 20px
+}
+.feature-image{
+ padding: 100px;
+ display: inline-block;
+}
+.row{
+ display: block;
+ margin: auto;
+ text-align: center;
+}
+.roundSquare{
+  height:50px; 
+  width:50px; 
+  display: flex;
+  background-color: #f0e9e9;
+  border-radius: 25%;
+  cursor: pointer;
+}
+.line{
+  flex:1;
+  width: 20px;
+  transform: rotate(90deg);
+  background-color: rgb(241, 236, 236);
+  justify-content: center;
+  
+}
+.row2{
+  height:200px; 
+  display: flex;
+  flex-direction: column;
+}
+.hidden{
+  font-family: "Inter", "serif"; font-size:18px; color: white;
+  display: none;
+  text-align: center;
+}

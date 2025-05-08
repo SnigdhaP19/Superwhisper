@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+      </head>
+  <body class="page">
+    <header class="header"> 
+      <div class="CalignmentH"> 
+         <div class="headerT">
+           <a href="superwhisper.com", style="color:white">About </a>
+           <a href="mailto:support@superwhisper.com", style="color:white">Contact </a>
+        </div>
+        <h1 style="color:white"> Superwhisper </h1>
+      </div>
+    </header>
+    <div class="content">
+      <div class="sidebar">
+        <p class="fontS", style="color:white", font+=2> Use Cases</p>
+        <a href="writing_ai_model.html"> <p class="fontS", style="color:white">Writing an AI Model Prompt</p></a>
+        <a href="note_taking.html"><p class="fontS", style="color:white">Note Taking</p></a>
+        <a href="coding.html"><p class="fontS", style="color:white">Writing Code</p></a>
+        <a href="linkedin.html"> <p class="fontS", style="color:white">Sending Outreach on Linkedin</p></a>
+        <a href="slack.html"><p class="fontS", style="color:white">Building Slack Mentions</p></a>
+        <a href="note_taking.html"> <p class="fontS", style="color:white">Daily Note-Taking with Obsidian</p></a>
+        <a href="medical_chart.html"><p class="fontS", style="color:white">Writing Medical Chart Notes</p></a>
+        <p class="fontS", style="color:white", font+=2> Features </p>
+        <a href="vocabulary.html"> <p class="fontS", style="color:white">Use Custom Vocabulary</p></a>
+        <a href="languages.html"><p class="fontS", style="color:white">100+ Languages</p></a>
+        <a href="text_replacement.html"><p class="fontS", style="color:white">Text Replacement</p></a>
+        <a href="modes.html"><p class="fontS", style="color:white">Modes</p></a>
+      </div>
+      <div class="container">
+        <h1 class="Calignment", style="color:white"> Writing Code </h1>
+        <h2 class="fontSu", style="color:white"> Introduction </h2>
+        <p style="color:white", class="fontT"> One of the best parts of Superwhisper is that it can code for you.  </p>
+        <p style="color:white", class="fontT"> The example below uses Python, but you can use any language. </p>
+        <p style="color:white", class="fontT"> To access this feature, you will have to create your mode. </p>
+        <p style="color:white", class="fontT"> For your mode, you will have to tell the mode what programming language to use, what formatting to use, and provide it with some context. </p>
+        <p style="color:white", class="fontT"> An example for the context could be that you tell your mode to not include any comments. </p>
+        <p style="color:white", class="fontT"> In other words, you will have to create a language prompt.</p>
+        <p style="color:white", class="fontT"> Once you set the mode, you can provide prompts to write the desired code.</p>
+        <p style="color:white", class="fontT"> Below are the steps showcasing how Superwhisper takes voice dictation and converts it into code</p>
+        <h2 class="fontSu", style="color:white"> Steps </h2>
+        <ul, style="color:white", class="fontT">
+          <li> Open Settings </li>
+          <li> Click on Create Mode </li>
+          <div class="row">
+            <div class="feature-image">
+              <img src="create_modes.png">
+            </div>
+          </div>
+          <li> Go to Custom </li>
+          <li> In the name field, write which language you are using </li>
+          <div class="row">
+            <div class="feature-image">
+              <img src="python.png">
+            </div>
+          </div>
+          <li> Create the Prompt to write code according to your preferences. This can include what language to use, how to format the code, and how to include comments. </li>
+          <li> Under prompt you will have an example button that you can type a sample input and output</li>
+          <div class="row">
+            <div class="feature-image">
+              <img src="prompt_input_output.png">
+            </div>
+          </div>
+          <li>Start your recording and provide instructions for what code should be written </li>
+          <li> Stop recording</li>
+          <li>You can also watch the following video: <a style="color: white", href="https://www.youtube.com/watch?v=upfqdDiNQ1w">Video</a></li>
+        </ul>
+        <div style="Calignment">
+        <h2 class="fontSu", style="color:white"> Try it Yourself </h2>
+        <div class="row2">
+          <div class="roundSquare", id="rounded-square"></div>
+          <div class="line", id="line-1"></div>
+          <div id="hidden-text" class="hidden"> Hello this is the revealed text!</div>
+          <div class="roundSquare", id="rounded-square2"></div>
+          <div class="line", id="line-2"></div>
+          <div id="hidden-text2" class="hidden"> Hello this is the revealed text!</div>
+          <div class="roundSquare", id="rounded-square3"></div>
+          <div id="hidden-text3" class="hidden"> Hello this is the revealed text!</div>
+        </div>
+        <script src="script.js"></script>
+      </div>
+    </div>
+    </body>
+</html>
